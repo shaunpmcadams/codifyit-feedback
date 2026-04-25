@@ -9,6 +9,21 @@ This repo is where clients, users, and interested operators can share:
 - enhancement requests
 - cross-product feedback
 
+## Use Statement
+
+- **Owner:** CodifyIT LLC
+- **Purpose:** public ideas and product feedback through GitHub Discussions
+  only
+- **Not for:** implementation work tracking, support incidents, security
+  disclosures, billing or contract questions, secrets, confidential content,
+  or client-specific details
+- **Work tracker:** public Issues stay disabled; accepted work routes into
+  `codifyit-os` or the relevant product repo
+- **Discussion route:** public GitHub Discussions in this repo
+- **Inherited governance:** inherits public-intake, security, confidentiality,
+  and moderation rules from `codifyit-os`
+- **Governance mirror:** `docs/contracts/codifyit-governance-inheritance.md`
+
 ## What this repo is for
 
 Use GitHub Discussions here when you want to tell us:
@@ -60,4 +75,3 @@ When you start a discussion, please tell us:
 This repo is a feedback and communication surface. Approved ideas may move into
 internal review or a product repo later, but that work will not be managed
 publicly here.
-Public client feedback surface for CodifyIT ideas, product improvements, and cross-product signal
