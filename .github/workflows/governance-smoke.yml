@@ -1,0 +1,25 @@
+name: Governance Smoke
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  governance-smoke:
+    name: Governance Smoke
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check governance files
+        uses: actions/checkout@v4
+      - name: Verify public-intake governance files
+        run: |
+          test -f README.md
+          test -f .github/CODEOWNERS
+          grep -q "Use Statement" README.md
+          grep -q "@codifyit-llc/platform-admins" .github/CODEOWNERS
